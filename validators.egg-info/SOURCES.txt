@@ -1,0 +1,10 @@
+pyproject.toml
+validators/__init__.py
+validators/api.py
+validators/constants.py
+validators/email.py
+validators/main.py
+validators.egg-info/PKG-INFO
+validators.egg-info/SOURCES.txt
+validators.egg-info/dependency_links.txt
+validators.egg-info/top_level.txt
