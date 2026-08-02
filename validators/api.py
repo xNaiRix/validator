@@ -9,7 +9,7 @@ app = FastAPI()
 async def check_email(req:CheckEmail.Request):
     load_dotenv()
     PORT = os.getenv("PORT", "1000")
-    print(f"Server runs on port {PORT}")
+    print(f"Server runs on port {PORT*3}")
     logs = await CheckEmail.check_email(req)
     print(logs)
     return logs
