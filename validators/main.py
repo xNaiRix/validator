@@ -6,7 +6,6 @@ load_dotenv()
 if __name__=="__main__":
     BACKEND_IP = os.getenv("BACKEND_API", "localhost")
     PORT = int(os.getenv("PORT", "8000"))
-    raise Exception(f"Server runs on port {PORT}")
     print(f"Server runs on port {PORT}")
     uvicorn.run(
         "main:app",
