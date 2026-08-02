@@ -11,5 +11,5 @@ if __name__=="__main__":
         host = BACKEND_IP,
         port = PORT,
         reload=True
-    )
+    )#хахаха
     
