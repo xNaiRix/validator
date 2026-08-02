@@ -28,7 +28,7 @@ jobs:
                 BACKEND_IP: ${{ secrets.BACKEND_IP}}
                 PORT: ${{secrets.PORT}}
               run: |
-                pytest --cov=validators --cov-report=html
+                pytest -s --cov=validators --cov-report=html
                 
 
         
