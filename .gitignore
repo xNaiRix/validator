@@ -1,6 +1,5 @@
 myenv/**
 .env
-pyproject.toml
 **/__pycache__/**
 **/.pytest_cache/**
 .coverage
