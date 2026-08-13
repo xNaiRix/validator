@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from validators import constants
+import constants
 from typing import Literal
 class CheckEmail:
     class Request(BaseModel):

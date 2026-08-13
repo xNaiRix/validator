@@ -1,5 +1,5 @@
 import pytest
-from validators.email import CheckEmail
+from validators.validator_email import CheckEmail
 @pytest.mark.parametrize(
         "email,expected",
         [
